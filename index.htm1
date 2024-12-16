@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>موقعي</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>مرحبًا بكم في موقعي</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">الرئيسية</a></li>
+        <li><a href="#about">عن الموقع</a></li>
+        <li><a href="#contact">اتصل بنا</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="section">
+    <h2>الرئيسية</h2>
+    <p>هذا هو الموقع الخاص بي المصمم بألوان السماء والأبيض.</p>
+  </section>
+
+  <section id="about" class="section">
+    <h2>عن الموقع</h2>
+    <p>تم إنشاء هذا الموقع كتجربة تصميم بسيطة.</p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>اتصل بنا</h2>
+    <p>يمكنك التواصل معنا عبر البريد الإلكتروني: <a href="mailto:example@example.com">example@example.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2024 موقعي. جميع الحقوق محفوظة.</p>
+  </footer>
+</body>
+</html>

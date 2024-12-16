@@ -1,0 +1,63 @@
+/* الخطوط الأساسية */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff; /* خلفية زرقاء سماوية */
+  color: #333; /* لون النص */
+}
+
+/* تنسيق الرأس */
+header {
+  background-color: #87ceeb; /* أزرق سماوي */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #fff;
+  color: #87ceeb;
+}
+
+/* تصميم الأقسام */
+.section {
+  padding: 40px;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #fff; /* خلفية بيضاء */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+  color: #87ceeb;
+}
+
+/* تصميم الفوتر */
+footer {
+  background-color: #87ceeb;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
